@@ -28,6 +28,8 @@ gem 'haml'
 
 gem 'bootstrap-sass'
 
+gem 'bcrypt'
+
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
