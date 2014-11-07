@@ -26,11 +26,14 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'haml'
 
+gem 'bootstrap-sass'
+
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
   gem 'web-console'
   gem 'spring'
+  gem 'better_errors'
 end
 
 group :test do
